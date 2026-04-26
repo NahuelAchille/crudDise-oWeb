@@ -4,3 +4,12 @@ body {
 .nav-icon{
     font-size: 2rem;
 }
+#dashboard {
+  margin-top: 5px ;
+}
+.sub-bar {
+  background-color: #f8f9fa; /* gris claro */
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  padding-top: 48px; /* altura aproximada del header fijo */
+}
