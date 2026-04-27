@@ -15,7 +15,8 @@
 <nav class="navbar-expand fixed-top " style="background-color: #055160;">
   <div class="container-fluid conteiner-nav d-flex justify-content-between align-items-center gap-3">
     <a class="text-white nav-link fw-semibold fs-5" href="#">
-        <i class="bi bi-shield-lock-fill me-1 nav-icon"></i>Admin
+        <i class="bi bi-shield-lock-fill me-1 nav-icon" id="textAdmin" ></i>
+         <span>Admin</span>
     </a>
     
     <div class="content-fluid" id="navbarNav">

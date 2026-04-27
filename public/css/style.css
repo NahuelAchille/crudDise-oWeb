@@ -8,8 +8,22 @@ body {
   margin-top: 5px ;
 }
 .sub-bar {
-  background-color: #f8f9fa; /* gris claro */
+  background-color: #f8f9fa; 
   border-bottom: 1px solid #ddd;
   padding: 0.5rem 1rem;
-  padding-top: 48px; /* altura aproximada del header fijo */
+  padding-top: 48px; 
+}
+#textAdmin {
+  vertical-align: middle;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding-top: 4px;    
+}
+.nav-link span {
+  position: relative;
+  top: 2px;
 }
