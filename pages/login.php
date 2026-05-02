@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="../public/css/style.css">
+  <link rel="stylesheet" href="../public/css/login.css">
 </head>
 <body id="bodyLogin" class="d-flex flex-column" >
     <div class="d-flex flex-column align-items-center flex-grow-1 login-container">

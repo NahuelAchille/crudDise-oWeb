@@ -1,0 +1,54 @@
+#bodyLogin{
+  background: linear-gradient(180deg, var(--primary-color), #5DA9B8);
+  margin:0;
+}
+.login-container{
+  padding: 1.5rem;
+  padding-top: 6rem;
+}
+
+#cardForm {
+  max-width: 400px;
+  width: 100%;
+  padding: 1.5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+#shield{
+  font-size: 4rem;
+  color: white;
+}
+
+.input-info{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.form-control{
+  border-color: #B6BDC5;
+}
+.form-control::placeholder{
+  color:#B6BDC5;
+}
+
+.input-group-text i {
+  color:white;
+}
+.input-group-text {
+  background-color: #B6BDC5;
+  border-color: #B6BDC5;
+}
+#togglePassword {
+  background-color: white;
+}
+#togglePassword i {
+  color:var(--primary-color);
+  font-size: 1.2rem;
+}
+.input-group:focus-within .form-control,.input-group:focus-within #togglePassword {
+  border-color: var(--primary-color);
+  z-index: 2;
+}
+#togglePassword {
+  background-color: white;
+  border-left: none;
+}
