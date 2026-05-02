@@ -1,9 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
   font-family: 'Inter', sans-serif;
+    min-height: 100svh;
 }
 #bodyLogin{
-  background: linear-gradient(135deg, #009688, #055160);
-
+  background: linear-gradient(180deg, #055160, #5DA9B8);
+  margin:0;
+}
+.login-container{
+  padding: 1.5rem;
+  padding-top: 6rem;
 }
 .nav-icon{
     font-size: 2rem;
@@ -31,12 +41,6 @@ body {
   position: relative;
   top: 2px;
 }
-.text-muted {
-  color: #f8f9fa;
-}
-.mt-3{
-  color:white;
-}
 
 #cardForm {
   max-width: 400px;
@@ -45,12 +49,41 @@ body {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); /* equivale a shadow */
 }
 
-#togglePassword{
-  position: relative;
-  top: 16px
+#shield{
+  font-size: 4rem;
+  color: white;
 }
 
-#shield{
-  font-size: 3rem;
-  color: white;
+.input-info{
+  color: #055160;
+  font-weight: 600;
+}
+.form-control{
+  border-color: #B6BDC5;
+}
+.form-control::placeholder{
+  color:#B6BDC5;
+}
+
+.input-group-text i {
+  color:white;
+}
+.input-group-text {
+  background-color: #B6BDC5;
+  border-color: #B6BDC5;
+}
+#togglePassword {
+  background-color: white;
+}
+#togglePassword i {
+  color:#055160;
+  font-size: 1.2rem;
+}
+.input-group:focus-within .form-control,.input-group:focus-within #togglePassword {
+  border-color: #055160;
+  z-index: 2;
+}
+#togglePassword {
+  background-color: white;
+  border-left: none;
 }
