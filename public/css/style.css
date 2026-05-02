@@ -1,6 +1,10 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+#bodyLogin{
+  background: linear-gradient(135deg, #009688, #055160);
+
+}
 .nav-icon{
     font-size: 2rem;
 }
@@ -26,4 +30,27 @@ body {
 .nav-link span {
   position: relative;
   top: 2px;
+}
+.text-muted {
+  color: #f8f9fa;
+}
+.mt-3{
+  color:white;
+}
+
+#cardForm {
+  max-width: 400px;
+  width: 100%;
+  padding: 1.5rem;   /* equivale a p-4 */
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); /* equivale a shadow */
+}
+
+#togglePassword{
+  position: relative;
+  top: 16px
+}
+
+#shield{
+  font-size: 3rem;
+  color: white;
 }
