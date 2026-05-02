@@ -39,7 +39,6 @@
                     <i class="bi bi-eye-fill"></i>
               </span>
             </div>
-          </span>
         </div>
         <button type="submit" class="btn btn w-100" style="background-color: #087990; color:white">Ingresar</button>
       </form>
