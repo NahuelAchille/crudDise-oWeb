@@ -38,7 +38,7 @@
                 </select>
             </label>
             <label for="nombre" class="form-label" >Fecha Nacimiento
-                <input type="date" class="form-control shadow-none" id="nombre" placeholder="Juancito" required>
+                <input type="date" class="form-control shadow-none" id="FechaNacimiento" required>
                 </input>
             </label>
             <label for="roles" class="form-label" >Rol
@@ -46,15 +46,16 @@
                 </select>
             </label>
             <label for="nombre" class="form-label" >Domicilio
-                <input type="" class="form-control shadow-none" id="nombre" placeholder="Juancito" required>
+                <input type="" class="form-control shadow-none" id="nombre" placeholder="Paris 1445,CABA,Argentina" required>
                 </input>
             </label>
             <label for="nombre" class="form-label" >Codigo Postal
-                <input type="" class="form-control shadow-none" id="nombre" placeholder="Juancito" required>
+                <input type="" class="form-control shadow-none" id="nombre" placeholder="1714" required>
                 </input>
             </label>
             <label for="nombre" class="form-label" >Observaciones
-                <input type="" class="form-control shadow-none" id="nombre" placeholder="Juancito" required>
+                <input type="" class="form-control shadow-none" id="nombre" placeholder="El puesto es para..." required>
                 </input>
             </label>
+            <button type="submit" class="btn btn w-100" style="background-color: #087990; color:white">Ingresar</button>
         </form>

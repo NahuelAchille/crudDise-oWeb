@@ -1,3 +1,6 @@
+<?php
+include'../../includes/conection.php';
+?>
 
 <div class="d-block d-md-none">
     <?php include '../../includes/header.php'; ?>
@@ -61,16 +64,10 @@
                             <th>Fecha de Registro</th>
                             </tr>
                     </thead>
-                    <tbody>
-                            <tr>
-                            <td>1</td>
-                            <td>Admin</td>
-                            <td>admin@mail.com</td>
-                            <td>21/04/2026 11:04</td>
-                            </tr>
-                    </tbody>
+                    <?php include '../../includes/tableUserlimit10.php'; ?>
                 </table>
             </div>
+        </div>
     </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

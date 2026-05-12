@@ -16,7 +16,7 @@
     <main class="main-content-desktop">
         <div class="p-2 shadow" style="color: #055160;">
             <article class="d-flex gap-2 align-items-center">
-                <i class="bi bi-clipboard-check nav-icon"></i>
+                <i class="bi bi-tags-fill nav-icon"></i>
                 <span>Gestión de Roles</span>
             </article>
         </div>
