@@ -49,7 +49,7 @@
                         <th>DNI</th>
                         <th>Rol</th>
                         <th>Estado</th>
-                        <th>Registro</th>
+                        <th>Fecha de Registro</th>
                     </tr>
                 </thead>
                 <?php include '../../includes/tableUserList.php'; ?>
