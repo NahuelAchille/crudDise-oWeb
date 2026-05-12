@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav class="d-flex flex-column flex-shrink-0 p-3 text-white h-100" style="background-color: #055160; width: 20rem; position:fixed">
-        <div class="d-flex flex-column container-fluid gap-5 h-100">
+        <div class="d-flex flex-column container-fluid h-100">
             <div>  
                 <a class="d-flex flex-column text-white nav-link fw-semibold fs-4" href="#">
                 <i class="bi bi-shield-lock-fill me-1 fs-1" id="textAdmin" ></i>
@@ -20,7 +20,7 @@
                 <span class="fs-6 fw-normal">Sistema de Gestión</span>
                 </a>
             </div>
-            <div class="content-fluid d-flex h-100 flex-column justify-content-between" id="navbarNav">
+            <div class="content-fluid d-flex h-100 flex-column justify-content-between mt-5" id="navbarNav">
             <ul class="navbar-nav gap-3">
                     <li class="text-center">
                         <a class="text-white nav-link d-flex gap-3 fw-semibold" href="#" title="Tareas">

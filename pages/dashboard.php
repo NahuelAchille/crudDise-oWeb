@@ -21,26 +21,26 @@
                 <span>Dashboard</span>
             </article>
         </div>
-        <ul class="navbar-nav d-flex flex-column flex-md-row p-3">
-            <li class="shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex align-items-center">
+        <ul class="navbar-nav d-flex flex-column flex-md-row p-3 flex-wrap">
+            <li class="col-11 col-lg-5 shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex flex-fill align-items-center">
                     <i class="bi bi-people-fill p-3 display-4 rounded text-white" style="background-color: #FFDA6A;"></i>
                     <span class="display-4 fw-semibold">20</span>
-                    <span class="ms-auto">Total de Usuarios</span>
+                    <span class="ms-auto text-end">Total de Usuarios</span>
             </li>
-            <li class="shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex align-items-center">
+            <li class="col-11 col-lg-5 shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex flex-fill align-items-center">
                     <i class="bi bi-person-check-fill p-3 display-4 rounded text-white" style="background-color: #79DFC1;"></i>
                     <span class="display-4 fw-semibold">20</span>
-                    <span class="ms-auto">Usuarios Activos</span>
+                    <span class="ms-auto text-end">Usuarios Activos</span>
             </li>
-            <li class="shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex align-items-center">
+            <li class="col-11 col-lg-5 shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex flex-fill align-items-center">
                     <i class="bi bi-tags-fill p-3 display-4 rounded text-white" style="background-color: #6EDFF6;"></i>
                     <span class="display-4 fw-semibold">20</span>
-                    <span class="ms-auto">Total de Roles</span>
+                    <span class="ms-auto text-end">Total de Roles</span>
             </li>
-            <li class="shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex align-items-center">
+            <li class="col-11 col-lg-5 shadow rounded-3 m-3 p-4 fs-3 gap-3 d-flex flex-fill align-items-center">
                     <i class="bi bi-person-x-fill p-3 display-4 rounded text-white" style="background-color: #EA868F;"></i>
                     <span class="display-4 fw-semibold">20</span>
-                    <span class="ms-auto">Usuarios Inactivos</span>
+                    <span class="ms-auto text-end">Usuarios Inactivos</span>
             </li>
         </ul>
         <div class="p-3 m-3 mb-0">
