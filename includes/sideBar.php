@@ -23,19 +23,19 @@
             <div class="content-fluid d-flex h-100 flex-column justify-content-between mt-5" id="navbarNav">
             <ul class="navbar-nav gap-3">
                     <li class="text-center">
-                        <a class="text-white nav-link d-flex gap-3 fw-semibold" href="#" title="Tareas">
+                        <a class="text-white nav-link d-flex gap-3 fw-semibold" href="../../pages/Dashboard/dashboard.php" title="Tareas">
                             <i class="bi bi-clipboard-check fs-2"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
                     <li class="text-center">
-                        <a class="text-white nav-link d-flex gap-3 fw-semibold" href="#" title="Etiquetas">
+                        <a class="text-white nav-link d-flex gap-3 fw-semibold" href="../../pages/Rol/rolList.php" title="Etiquetas">
                             <i class="bi bi-tags-fill fs-2"></i>
                             <span>Roles</span>
                         </a>
                     </li>
                     <li class="text-center">
-                        <a class="text-white nav-link d-flex gap-3 fw-semibold" href="#" title="Usuarios">
+                        <a class="text-white nav-link d-flex gap-3 fw-semibold" href="../../pages/Users/userList.php" title="Usuarios">
                             <i class="bi bi-people-fill fs-2"></i>
                             <span>Usuarios</span>
                         </a>

@@ -20,15 +20,15 @@
                 <span>Gestión de Usuarios</span>
             </article>
         </div>
-        <div class="tabla-de-usuarios p-3 m-3 mb-0">
+        <div class="tabla-de-usuarios p-3 m-3 mb-0 overflow-hidden rounded">
           <div class="p-3 rounded rounded-bottom-0 d-flex gap-3 align-items-center text-white" style="background-color: #055160;">
               <i class="bi bi-people-fill fs-2"></i>
               <span>
                     Listado de Usuarios
               </span>
-              <button class="btn text-white ms-auto fw-semibold text-nowrap" style="background-color: #20C997;">+ Agregar</button>
+              <button class="btn text-white ms-auto fw-semibold text-nowrap rounded" style="background-color: #20C997;">+ Agregar</button>
           </div>
-          <div class="p-3" style="background-color: #5DA9B8;">
+          <div class="p-3 rounded-bottom" style="background-color: #5DA9B8;">
             <div class="input-info">
               <label for="search" class="form-label d-block col-12 col-lg-3 m-0">
                 <div class="input-group shadow">
@@ -39,7 +39,7 @@
                 </div>
               </label>
             </div>
-          <div class="table-responsive shadow-sm rounded-bottom">  
+          <div class="table-responsive shadow rounded mt-4">  
             <table class="table table-striped-columns m-0">
                 <thead>
                     <tr>
@@ -54,7 +54,8 @@
                 </thead>
                 <?php include '../../includes/tableUserList.php'; ?>
             </table>
-        </div>
+            </div>
+            </div>
         </div>  
     </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

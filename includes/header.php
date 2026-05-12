@@ -21,19 +21,18 @@
         <div class="content-fluid d-flex flex-row align-items-center gap-1" id="navbarNav">
         <ul class="navbar-nav gap-4">
                 <li class="text-center">
-                    <a class="text-white" href="#" title="Tareas">
+                    <a class="text-white" href="../../pages/Dashboard/dashboard.php" title="Tareas">
                         <i class="bi bi-clipboard-check nav-icon"></i>
-                
                     </a>
                 </li>
                 <li class="text-center">
-                    <a class="text-white" href="#" title="Etiquetas">
+                    <a class="text-white" href="../../pages/Rol/rolList.php" title="Etiquetas">
                         <i class="bi bi-tags-fill nav-icon"></i>
                 
                     </a>
                 </li>
                 <li class="text-center">
-                    <a class="text-white" href="#" title="Usuarios">
+                    <a class="text-white" href="../../pages/Users/userList.php" title="Usuarios">
                         <i class="bi bi-people-fill nav-icon"></i>
             
                     </a>
