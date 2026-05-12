@@ -1,7 +1,7 @@
 <?php
 include_once __DIR__ . '/conection.php';
 
-$sql = "SELECT u.nombre, r.nombre AS rol, u.email, u.fecha_nacimiento
+$sql = "SELECT u.nombre, r.nombre AS rol, u.email, u.fecha_registro
         FROM usuarios u
         INNER JOIN roles r ON u.rol_id = r.id
         ORDER BY u.id DESC
@@ -18,7 +18,7 @@ if (mysqli_num_rows($result) > 0) {
         echo "<td>" . htmlspecialchars($row['nombre']) . "</td>";
         echo "<td>" . htmlspecialchars($row['rol']) . "</td>";
         echo "<td>" . htmlspecialchars($row['email']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['fecha_nacimiento']) . "</td>";
+        echo "<td>" . date("d/m/Y H:i", strtotime($row['fecha_registro'])) . "</td>";
         echo "</tr>";
     }
 } else {

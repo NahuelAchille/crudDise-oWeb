@@ -5,7 +5,7 @@ if (!$conexion) {
     die("Error de conexión: " . mysqli_connect_error());
 }
 
-$sql = "SELECT u.id, u.nombre, u.email, u.dni, r.nombre AS rol, u.activo, u.fecha_nacimiento
+$sql = "SELECT u.id, u.nombre, u.email, u.dni, r.nombre AS rol, u.activo, u.fecha_registro
         FROM usuarios u
         INNER JOIN roles r ON u.rol_id = r.id
         ORDER BY u.id ASC";
@@ -28,7 +28,7 @@ if (mysqli_num_rows($result) > 0) {
         echo "<td>" . htmlspecialchars($row['dni']) . "</td>";
         echo "<td>" . htmlspecialchars($row['rol']) . "</td>";
         echo "<td>" . ($row['activo'] ? 'Activo' : 'Inactivo') . "</td>";
-        echo "<td>" . htmlspecialchars($row['fecha_nacimiento']) . "</td>";
+        echo "<td>" . date("d/m/Y H:i", strtotime($row['fecha_registro'])) . "</td>";
         echo "</tr>";
     }
 } else {

@@ -61,7 +61,7 @@ include_once __DIR__ . '/../includes/conection.php';
                             <th>Nombre</th>
                             <th>Rol</th>
                             <th>Email</th>
-                            <th>Fecha de Nacimiento</th>
+                            <th>Fecha de Registro</th>
                         </tr>
                     </thead>
                     <?php include '../includes/tableUserlimit10.php'; ?>
