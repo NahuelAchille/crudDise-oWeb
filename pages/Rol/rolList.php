@@ -31,23 +31,15 @@
             <div class="table-responsive shadow-sm rounded-bottom">  
                 <table class="table table-striped-columns m-0">
                     <thead>
-                            <tr>
+                        <tr>
                             <th>#</th>
                             <th>Nombre</th>
                             <th>Descripción</th>
                             <th>Usuarios Asignados</th>
                             <th>Estado</th>
-                            <th>Acciones</th>
-                            </tr>
+                        </tr>
                     </thead>
-                    <tbody>
-                            <tr>
-                            <td>1</td>
-                            <td>Admin</td>
-                            <td>admin@mail.com</td>
-                            <td>21/04/2026 11:04</td>
-                            </tr>
-                    </tbody>
+                    <?php include '../../includes/tableRol.php'; ?>
                 </table>
             </div>
           </div>
