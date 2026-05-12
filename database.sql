@@ -20,7 +20,7 @@ CREATE TABLE usuarios (
   codigo_postal VARCHAR(10),
   observacion TEXT,
   activo TINYINT(1) DEFAULT 1,
-fecha_registro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+   fecha_registro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (rol_id) REFERENCES roles(id)
 );
 
