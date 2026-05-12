@@ -49,7 +49,7 @@
                 <span>
                     Últimos usuarios Registrados
                 </span>
-                <button class="btn text-white ms-auto" style="background-color: #20C997;">ver todos</button>
+                <button class="btn text-white ms-auto fw-semibold" style="background-color: #20C997;">Ver Todos</button>
             </div>  
             <div class="table-responsive shadow-sm rounded-bottom">  
                 <table class="table table-striped-columns m-0">
@@ -72,5 +72,6 @@
                 </table>
             </div>
     </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
