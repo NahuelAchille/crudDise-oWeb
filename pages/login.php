@@ -23,7 +23,7 @@
         <div class="mb-3 input-info">
           <label for="email" class="form-label">Correo electrónico</label>
           <div class="input-group shadow-sm">
-            <span class="input-group-text" id="basic-addon1">
+            <span class="input-group-text" id="input-icon">
               <i class="bi bi-envelope-fill"></i>
             </span>
             <input type="email" class="form-control shadow-none" id="email" placeholder="Usuario@ejemplo.com" required>
@@ -32,7 +32,7 @@
         <div class="mb-3 input-info">
           <label for="password" class="form-label">Contraseña</label>
             <div class="input-group shadow-sm">
-              <span class="input-group-text" id="basic-addon">
+              <span class="input-group-text" id="input-icon2">
                 <i class="bi bi-lock-fill"></i>
               </span>
               <input type="password" class="form-control border-end-0 shadow-none" id="password" placeholder="Contraseña" required>
@@ -47,5 +47,6 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../public/js/login.js"></script>
 </body>
 </html>
