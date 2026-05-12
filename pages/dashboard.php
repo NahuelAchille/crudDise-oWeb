@@ -1,3 +1,6 @@
+<?php
+include_once __DIR__ . '/../includes/conection.php';
+?>
 
 <div class="d-block d-md-none">
     <?php include '../includes/header.php'; ?>
@@ -54,21 +57,14 @@
             <div class="table-responsive shadow-sm rounded-bottom">  
                 <table class="table table-striped-columns m-0">
                     <thead>
-                            <tr>
+                        <tr>
                             <th>Nombre</th>
                             <th>Rol</th>
                             <th>Email</th>
-                            <th>Fecha de Registro</th>
-                            </tr>
+                            <th>Fecha de Nacimiento</th>
+                        </tr>
                     </thead>
-                    <tbody>
-                            <tr>
-                            <td>1</td>
-                            <td>Admin</td>
-                            <td>admin@mail.com</td>
-                            <td>21/04/2026 11:04</td>
-                            </tr>
-                    </tbody>
+                    <?php include '../includes/tableUserlimit10.php'; ?>
                 </table>
             </div>
     </main>
