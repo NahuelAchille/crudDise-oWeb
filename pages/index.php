@@ -1,8 +1,14 @@
-<?php include '../includes/header.php'; ?>
 <?php
+if (!file_exists(__DIR__ . '/../config/installed.flag')) {
+    include __DIR__ . '/../config/setup.php';
+    file_put_contents(__DIR__ . '/../config/installed.flag', 'ok');
+}
+
 header("Location: login.php");
 exit();
 ?>
+
+<?php include '../includes/header.php'; ?>
 
 <div class="sub-bar">
   <div class="container-fluid d-flex align-items-center gap-2">
