@@ -39,21 +39,22 @@
                 </div>
               </label>
             </div>
-          </div>
-                <table class="table table-striped-columns m-0">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Nombre</th>
-                            <th>email</th>
-                            <th>DNI</th>
-                            <th>Rol</th>
-                            <th>Estado</th>
-                            <th>Registro</th>
-                        </tr>
-                    </thead>
-                    <?php include '../../includes/'; ?>
-                </table>
+          <div class="table-responsive shadow-sm rounded-bottom">  
+            <table class="table table-striped-columns m-0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>DNI</th>
+                        <th>Rol</th>
+                        <th>Estado</th>
+                        <th>Registro</th>
+                    </tr>
+                </thead>
+                <?php include '../../includes/tableUserList.php'; ?>
+            </table>
+        </div>
         </div>  
     </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
