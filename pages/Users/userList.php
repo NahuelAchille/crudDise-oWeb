@@ -26,7 +26,7 @@
               <span>
                     Listado de Usuarios
               </span>
-              <button class="btn text-white ms-auto fw-semibold text-nowrap rounded" style="background-color: #20C997;">+ Agregar</button>
+              <a class="btn ms-auto fw-semibold text-nowrap rounded text-decoration-none text-white" style="background-color: #20C997;" href="formUser.php">+ Agregar</a>
           </div>
           <div class="p-3 rounded-bottom" style="background-color: #5DA9B8;">
             <div class="input-info">

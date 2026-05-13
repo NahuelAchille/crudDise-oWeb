@@ -52,7 +52,9 @@ include'../../includes/conection.php';
                 <span>
                     Últimos usuarios Registrados
                 </span>
-                <button class="btn text-white ms-auto fw-semibold" style="background-color: #20C997;">Ver Todos</button>
+                <button class="btn text-white ms-auto fw-semibold text-nowrap" style="background-color: #20C997;">
+                    <a class="text-decoration-none text-white" href="../Users/userList.php">Ver Todos</a>
+                </button>
             </div>  
             <div class="table-responsive shadow-sm rounded-bottom">  
                 <table class="table table-striped-columns m-0">

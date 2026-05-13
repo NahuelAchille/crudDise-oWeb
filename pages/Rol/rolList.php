@@ -26,7 +26,7 @@
                 <span>
                     Listado de Roles
                 </span>
-                <button class="btn text-white ms-auto fw-semibold" style="background-color: #20C997;">+ Agregar</button>
+                <button class="btn text-white ms-auto fw-semibold text-nowrap" style="background-color: #20C997;">+ Agregar</button>
             </div>  
             <div class="table-responsive shadow-sm rounded-bottom">  
                 <table class="table table-striped-columns m-0">
