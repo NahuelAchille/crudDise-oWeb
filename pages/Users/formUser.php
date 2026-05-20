@@ -60,3 +60,4 @@ include'../../includes/conection.php';
             </label>
             <button type="submit" class="btn btn w-100" style="background-color: #087990; color:white">Ingresar</button>
         </form>
+    

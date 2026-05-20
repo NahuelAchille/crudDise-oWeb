@@ -29,7 +29,21 @@ if (mysqli_num_rows($result) > 0) {
         echo "<td>" . htmlspecialchars($row['rol']) . "</td>";
         echo "<td>" . ($row['activo'] ? 'Activo' : 'Inactivo') . "</td>";
         echo "<td>" . date("d/m/Y H:i", strtotime($row['fecha_registro'])) . "</td>";
-        echo "</tr>";
+        
+        echo "<td class='text-center align-middle' style='white-space: nowrap;'>";
+        echo "<div class='d-flex justify-content-center align-items-center gap-2'>";
+        echo "<a href='editUser.php?id=" . $row['id'] . "' class='btn btn-sm btn-warning'>
+                <i class='bi bi-pencil-square'></i> Editar
+            </a>";
+        echo "<a href='deleteUser.php?id=" . $row['id'] . "' class='btn btn-sm btn-danger'
+                onclick=\"return confirm('¿Seguro que deseas eliminar este usuario?');\">
+                <i class='bi bi-trash'></i> Eliminar
+            </a>";
+        echo "</div>";
+        echo "</td>";
+
+
+    echo "</tr>";
     }
 } else {
     echo "<tr><td colspan='7'>No hay usuarios registrados.</td></tr>";

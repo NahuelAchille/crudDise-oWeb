@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
     $dni = trim($_POST['dni']);
-    $fecha_nac = trim($_POST['FechaNac']);
+    $fecha_nac = !empty($_POST['FechaNac']) ? date('Y-m-d', strtotime($_POST['FechaNac'])) : null;
     $rol_id = trim($_POST['roles']);
     $domicilio = trim($_POST['Dir']);
     $codigo_postal = trim($_POST['codPost']);
@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1)";
 
     $stmt = $conexion->prepare($sql);
-    $stmt->bind_param("ssssissss", $nombre, $email, $password_hash, $dni, $fecha_nac, $rol_id, $domicilio, $codigo_postal, $observacion);
+    $stmt->bind_param("sssssisss", $nombre, $email, $password_hash, $dni, $fecha_nac, $rol_id, $domicilio, $codigo_postal, $observacion);
 
     if ($stmt->execute()) {
         echo "<script>alert('Usuario registrado correctamente'); window.location.href='userList.php';</script>";

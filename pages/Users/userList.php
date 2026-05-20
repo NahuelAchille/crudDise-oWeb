@@ -50,6 +50,7 @@
                         <th>Rol</th>
                         <th>Estado</th>
                         <th>Fecha de Registro</th>
+                        <th  style="width: 160px;">Acciones</th>
                     </tr>
                 </thead>
                 <?php include '../../includes/tableUserList.php'; ?>
