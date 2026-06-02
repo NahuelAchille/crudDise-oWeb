@@ -36,3 +36,8 @@ body {
   position: relative;
   top: 2px;
 }
+#mainContent {
+  margin-left: 20rem;
+  padding: 2rem;
+}
+

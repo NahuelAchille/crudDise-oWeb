@@ -1,0 +1,2 @@
+Realizado por Lucia Voda y Nahuel Achille. Armamos un ejecutable de la base de datos que cuando se abre el index/login se crea automaticamente la base de datos.
+No cargamos ningun cliente en el ejecutable pero si esta toda la base de datos y los roles.

@@ -1,7 +1,6 @@
 
 
 
-// Agrega funcionalidad al ojo
 const togglePassword = document.querySelector('#togglePassword');
 const passwordInput = document.querySelector('#password');
 

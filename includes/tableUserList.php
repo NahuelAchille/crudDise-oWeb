@@ -32,6 +32,9 @@ if (mysqli_num_rows($result) > 0) {
         
         echo "<td class='text-center align-middle' style='white-space: nowrap;'>";
         echo "<div class='d-flex justify-content-center align-items-center gap-2'>";
+        echo "<a href='viewUser.php?id=" . $row['id'] . "' class='btn btn-sm btn-info'>
+        <i class='bi bi-eye'></i> Ver Detalle
+        </a>";
         echo "<a href='editUser.php?id=" . $row['id'] . "' class='btn btn-sm btn-warning'>
                 <i class='bi bi-pencil-square'></i> Editar
             </a>";
