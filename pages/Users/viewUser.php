@@ -42,7 +42,7 @@ $user = $result->fetch_assoc();
                 <li class="list-group-item"><strong>Estado:</strong> <?php echo ($user['activo'] ? 'Activo' : 'Inactivo'); ?></li>
                 <li class="list-group-item"><strong>Fecha de Registro:</strong> <?php echo date("d/m/Y H:i", strtotime($user['fecha_registro'])); ?></li>
             </ul>
-            <a href="userList.php" class="btn btn-secondary mt-3">Volver</a>
+            <a href="userList.php" class="btn btn-secondary mt-3" style="background-color:#055160; color:white;">Volver</a>
         </div>
     </div>
 </main>
